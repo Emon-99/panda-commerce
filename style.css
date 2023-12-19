@@ -1,0 +1,208 @@
+html{
+    font-size:62.5% ;
+}
+.top-gap{
+    margin-top:4vw;
+}
+/*Carousel part start*/
+.carousel-bg-color{
+    background-color:#fceae8 ;
+    
+}
+.carousel-item{
+    padding:0vw 2vw ;
+    padding-left:3vw;
+
+}
+.text-part{
+    padding-top:7vw ;
+    
+}
+.text-part .main-text{
+    color:crimson;
+    font-size:4vw;
+    margin-bottom: -0.2rem ;
+    
+}
+.tag-line{
+    padding-bottom:5rem ;
+}
+.details{
+    font-weight:400 ;
+    margin-bottom: -0.2rem;
+    font-size: 1vw;
+}
+
+.price{
+    color:#FF136F ;
+    padding-top:1.2vw;
+    padding-bottom:0.3vw;
+}
+.buy-now-button{
+    background-image:linear-gradient(to bottom, #FF5898 0%, #FF136F 100%) ;
+    color:#fff ;
+    border:none ;
+    border-radius:0.9rem;
+    padding:0.9rem 2.5rem;
+    cursor:pointer ;
+    margin-top:.9rem;
+
+    position:relative ;
+    bottom:0.8vw;
+}
+
+@media (max-width:600px) {
+
+    .padding-left{
+        padding-left:6vw ;
+    }
+
+    .tag-line{
+        font-size:3vw ;
+        padding-bottom:5vw ;
+    }
+    .details{
+        font-size:2.5vw ;
+
+    }
+    .price{
+        padding-top:5vw ;
+
+    }
+    .buy-now-button{
+        position:relative ;
+        left:6vw ;
+    }
+}
+
+/*carousel part End*/
+
+
+/*Categories PART START*/
+.watch{
+    background-color:orange ;
+}
+.bag{
+    background-color:orchid ;
+}
+.shoes{
+    background-color:skyblue ;
+
+}
+
+.watch, .bag, .shoes{
+    padding:10px 30px;
+    border-radius:15px ;
+}
+.categories h1{
+    color:white ;
+}
+.categories img{
+    width:100px ;
+}
+
+/*Categories PART END*/
+
+/*Shoes section start*/
+#shoes{
+    padding-bottom:70px ;
+}
+.col .card{
+    border:none ;
+    border-radius:10px ;
+    box-shadow:5px 5px 10px lightgray ;
+
+}
+.col .card-footer{
+    background-color:white ;
+}
+.col .card .buy-now-button{
+    margin-top:2vw ;
+    position:relative ;
+    bottom:1vw ;
+    left:7vw ;   
+}
+@media (max-width:600px) {
+    .col .card h5{
+        font-size:30px ;
+    }
+    .col .card h4{
+        font-size:20px ;
+        color:#FF136F ;
+    }
+    .card-text{
+        
+        font-size:13px ;
+    }
+    .col .card .buy-now-button{
+        margin-top:2vw ;
+        position:relative ;
+        bottom:1vw ;
+        left:0.5vw ;
+    }
+
+}
+/*Shoes section end*/
+
+/*Bag section start*/
+.col .card .card-footer{
+    border:none ;
+}
+/*Bag section end*/
+
+/*Contuct section start*/
+.contact{
+    height:300px ;
+
+    display:flex ;
+    justify-content:center ;
+    align-items:center ;
+}
+.contact h3{
+    font-size:2.5vw ;
+    padding-bottom:3vh ;
+}
+.contact h6{
+    color:gray ;
+    font-size:1vw ;
+    text-align:center ;
+}
+.contact input{
+    height:4vh ;
+    font-size:1vw ;
+}
+.contact button{
+    margin-top:2vw;
+    position:relative;
+    left:10vw ;
+    top:0 ;
+}
+
+@media (max-width:600px) {
+    .contact{
+        height:250px ;
+    }
+    .contact h3{
+        font-size:6vw ;
+    }
+    .contact h6{
+        font-size:2.5vw ;
+    }
+    .contact input{
+        font-size:3.5vw ;
+    }
+    .contact button{
+        margin-top:5vw ;
+        position:relative ;
+        left:18vw ;
+    }
+}
+
+/*Contuct section End*/
+
+
+/*Footer section start*/
+footer{
+    text-align:center ;
+}
+/*Footer section End*/
